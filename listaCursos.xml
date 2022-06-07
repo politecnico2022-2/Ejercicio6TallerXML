@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE listaCursos SYSTEM "listaCursos.dtd">
+<!--<listaCursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="listaCursos.xsd">-->
+<listaCursos>
+    <Curso>
+        <Alumno>
+            <DNI>1000871943</DNI>
+            <Nombre>Andres Felipe</Nombre>
+            <PrimerApellido>Marin</PrimerApellido>
+            <SegundoApellido>Monsalve</SegundoApellido>
+            <listaAsignatura>
+                <asignatura codigo="CES3">
+                    <Nombre>CES 3</Nombre>
+                    <Docente>
+                        <NRP>#AB8589S52X63</NRP>
+                        <Nombre>Oscar</Nombre>
+                        <PrimerApellido>Mesa</PrimerApellido>
+                    </Docente>
+                </asignatura>
+                <asignatura codigo="DESP3">
+                    <Nombre>Sistemico 3</Nombre>
+                    <Docente>
+                        <NRP>#ABD485X9635</NRP>
+                        <Nombre>Luis</Nombre>
+                        <PrimerApellido>Zapata</PrimerApellido>
+                        <SegundoApellido>Rojas</SegundoApellido>
+                    </Docente>
+                </asignatura>
+            </listaAsignatura>
+        </Alumno>
+
+        <Alumno>
+            <DNI>10635699896</DNI>
+            <Nombre>Juan Diego</Nombre>
+            <PrimerApellido>Marin</PrimerApellido>
+            <listaAsignatura>
+                <asignatura codigo="MAT3562X">
+                    <Nombre>Matematicas</Nombre>
+                    <Docente>
+                        <NRP>#11EXW9663S5</NRP>
+                        <Nombre>Angela</Nombre>
+                        <PrimerApellido>Mesa</PrimerApellido>
+                    </Docente>
+                </asignatura>
+            </listaAsignatura>
+        </Alumno>
+    </Curso>
+</listaCursos>
